@@ -58,7 +58,7 @@ The Context Diagram provides an overview of the system's interactions with exter
 
 The Data Flow Diagram depicts the flow of data within the system, including data input, processing, and output.
 
-# 3.6 ERD and RAD Diagram
+## 3.6 ERD and RAD Diagram
 ### 3.6.1 Entity Relationship Diagram (ERD)
 
 ![Entity Relationship Diagram](/assets/LRPC/erd.png)
