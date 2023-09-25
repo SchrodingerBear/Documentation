@@ -67,7 +67,7 @@ An Entity Relationship Diagram (ERD) is a visual representation of the relations
 
 ### 3.6.2 Rapid Application Development (RAD) Diagram
 
-![Data Flow Diagram]()
+![Data Flow Diagram](/assets/LRPC/rad.png)
 
 Rapid Application Development (RAD) is an approach to software development that prioritizes rapid prototyping and quick iterations. Here, we provide a RAD diagram outlining the development phases and key milestones of our project.
 
