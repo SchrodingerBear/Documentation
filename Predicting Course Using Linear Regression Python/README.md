@@ -12,7 +12,7 @@ The data points used in this project include historical enrollment data for thre
 
 ## 3.3 System Development Diagrams
 
-### 3.3.1 Input-Process-Output (IPO) Diagram
+### 3.3.1 Input-Process-Output (IPO)
 
 Input: Historical enrollment data for BSCS, BSIT, and BSIS.
 Process: Training the Linear Regression algorithm.
@@ -54,30 +54,38 @@ The Context Diagram provides an overview of the system's interactions with exter
 
 ### 3.5.2 Data Flow Diagram (DFD)
 
-![Data Flow Diagram](data_flow_diagram.png)
+![Data Flow Diagram](/assets/LRPC/data-flow.png)
 
 The Data Flow Diagram depicts the flow of data within the system, including data input, processing, and output.
 
-## 3.6 Technical Requirements
+# 3.6 ERD and RAD Diagram
+### 3.6.1 Entity Relationship Diagram (ERD)
 
-### 3.6.1 Data Requirements
+![Entity Relationship Diagram](/assets/LRPC/erd.png)
+
+An Entity Relationship Diagram (ERD) is a visual representation of the relationships between different entities in a system or database. In the context of our project, we have created an ERD to illustrate how various elements of our system interact with each other and how data is organized.
+
+### 3.6.2 Rapid Application Development (RAD) Diagram
+
+![Data Flow Diagram]()
+
+Rapid Application Development (RAD) is an approach to software development that prioritizes rapid prototyping and quick iterations. Here, we provide a RAD diagram outlining the development phases and key milestones of our project.
+
+## Technical Requirements
+
+### 3.7 Data Requirements
 
 The system relies on historical enrollment data for BSCS, BSIT, and BSIS as its primary data source. This data must be collected, cleaned, and formatted for use in training the Linear Regression model.
 
-### 3.6.2 Hardware Requirements
+### 3.7.2 Hardware Requirements
 
 The hardware requirements for the system are minimal, as Flask is a lightweight framework. A standard web server with sufficient processing power and memory should suffice.
 
-### 3.6.3 Software Requirements
+### 3.7.3 Software Requirements
 
 The following software components are required for the system:
+
 - Python for developing the Flask application.
 - Flask web framework for building the web-based system.
 - Libraries such as NumPy and scikit-learn for implementing the Linear Regression algorithm.
 - A database management system (e.g., MySQL) for storing and managing historical enrollment data.
-
-## 3.7 Citation of Software Development Model
-
-The software development model used for this project is the Agile methodology. Agile was chosen for its iterative and flexible approach, allowing for incremental development and adjustments based on stakeholder feedback.
-
-In this chapter, we have outlined the methodology, software and web framework, data points, system development diagrams, and technical requirements used in the development of the proposed system. The system's primary features, including admin controls, login, dashboard, prediction, and database management, have also been discussed.
