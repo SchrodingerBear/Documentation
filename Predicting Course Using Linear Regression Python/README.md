@@ -76,16 +76,25 @@ Rapid Application Development (RAD) is an approach to software development that 
 ### 3.7 Data Requirements
 
 The system relies on historical enrollment data for BSCS, BSIT, and BSIS as its primary data source. This data must be collected, cleaned, and formatted for use in training the Linear Regression model.
+# Hardware and Software Requirements
 
-### 3.7.2 Hardware Requirements
+## Hardware Requirements
 
-The hardware requirements for the system are minimal, as Flask is a lightweight framework. A standard web server with sufficient processing power and memory should suffice.
+| Component          | Requirement                                             |
+| ------------------ | ------------------------------------------------------- |
+| Processor          | Standard processor with adequate processing power.     |
+| Memory (RAM)       | Sufficient RAM for running the web server and database management system efficiently. |
+| Storage            | Adequate storage space for storing application files and database data. |
+| Desktop or Laptop  | Any standard desktop or laptop computer with the necessary hardware components. |
 
-### 3.7.3 Software Requirements
+## Software Requirements
 
-The following software components are required for the system:
+| Software Component             | Purpose                                                 |
+| ------------------------------ | ------------------------------------------------------- |
+| Operating System (OS)          | Any modern operating system such as Windows, macOS, or Linux that supports Python and Flask. |
+| Python                         | Python programming language for developing the Flask application. |
+| Flask                          | Flask web framework for building the web-based system.  |
+| NumPy and scikit-learn         | Python libraries for implementing the Linear Regression algorithm. |
+| Database Management System     | A relational database management system (MySQL) for storing and managing historical enrollment data. |
 
-- Python for developing the Flask application.
-- Flask web framework for building the web-based system.
-- Libraries such as NumPy and scikit-learn for implementing the Linear Regression algorithm.
-- A database management system (e.g., MySQL) for storing and managing historical enrollment data.
+
