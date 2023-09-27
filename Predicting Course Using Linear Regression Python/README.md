@@ -98,3 +98,96 @@ The system relies on historical enrollment data for BSCS, BSIT, and BSIS as its 
 | Database Management System     | A relational database management system (MySQL) for storing and managing historical enrollment data. |
 
 
+## Research Design for 3.8
+
+The research design for this project follows a mixed-method approach, combining both quantitative and qualitative research methods. This approach is essential to develop and evaluate the predictive model accurately while understanding user requirements and feedback.
+
+### 3.8.1 Quantitative Research
+
+**Objective:** To predict course demand and estimate future enrollment accurately.
+
+**Method:** Employing the Linear Regression algorithm on historical enrollment data.
+
+**Data Collection:** Gathering enrollment data for BSCS, BSIT, and BSIS.
+
+**Data Analysis:** Using statistical metrics to evaluate the accuracy of the prediction model.
+
+### 3.8.2 Qualitative Research
+
+**Objective:** To understand user needs and preferences.
+
+**Method:** Conducting surveys, interviews, and feedback analysis.
+
+**Data Collection:** Gathering user opinions and feedback through surveys and interviews.
+
+**Data Analysis:** Analyzing qualitative data to identify user expectations and improve the system.
+
+## Requirements Analysis
+
+Requirements analysis is a crucial phase in system development, involving the identification, documentation, and validation of system requirements. It helps ensure that the developed system meets user needs and expectations.
+
+### 3.9.1 Requirements Documentation
+
+Requirements documentation includes:
+
+- **Functional Requirements:** Describing the system's functionalities, such as user authentication, prediction generation, and database management.
+
+- **Non-Functional Requirements:** Specifying system characteristics like performance, security, and user interface design.
+
+- **User Requirements:** Outlining user expectations gathered through surveys and interviews.
+
+## Design of Software System/Process
+
+The design phase involves creating detailed system blueprints, including database schema, user interfaces, and system workflows.
+
+### 3.10.1 Database Schema
+
+![Data Flow Diagram](/assets/LRPC/database-schema.png)
+
+#### Database Schema
+
+The database schema outlines the structure of the database, including tables for storing historical enrollment data, user information, and prediction results.
+
+### 3.10.2 User Interface Design
+
+![Data Flow Diagram](/assets/LRPC/database-schema.png)
+
+#### User Interface Design
+
+The user interface design focuses on creating a user-friendly dashboard for users to interact with the system, providing easy access to predictions and data management.
+
+## Development & Testing
+
+### 3.11.1 Development
+
+The development phase involves implementing the Flask application, integrating the Linear Regression model, and creating the user interface.
+
+### 3.11.2 Testing
+
+Testing includes:
+
+- **Unit Testing:** Testing individual components and functions for correctness.
+
+- **Integration Testing:** Ensuring that different parts of the system work together.
+
+- **User Acceptance Testing:** Involving users to validate that the system meets their needs and expectations.
+
+## Description of Prototype
+
+A prototype of the system will be developed to gather user feedback and make necessary improvements. The prototype will include the core functionalities of prediction and data management.
+
+## Implementation Plan
+
+The implementation plan outlines the schedule and milestones for the project, including development, testing, and deployment phases.
+
+## Population of the Study
+
+The population of the study includes students and administrators who will interact with the system. Students will use the system to access course predictions, while administrators will manage the system and database.
+
+## Data Collection and Instrument
+
+Data collection methods include surveys and interviews to gather user feedback. Surveys will be conducted online, and interviews will be scheduled with key stakeholders.
+
+## Data Sampling
+
+Data sampling will be performed on historical enrollment data to create a representative dataset for training the Linear Regression model. This dataset will be used to make predictions and estimate future enrollment accurately.
