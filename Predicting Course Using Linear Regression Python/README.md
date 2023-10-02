@@ -102,7 +102,7 @@ The system relies on historical enrollment data for BSCS, BSIT, and BSIS as its 
 
 ## 4.1 Research Design
 
-The research design for this project follows a mixed-method approach, combining both quantitative and qualitative research methods. This approach is essential to develop and evaluate the predictive model accurately while understanding user requirements and feedback.
+Quantitative research is a robust method that employs numerical data and statistical analysis to draw conclusions and make informed decisions. In the context of the  system, which encompasses administrative controls, login functionality, a dashboard displaying student data, predictive analysis, and dataset management, a quantitative approach proves to be the most effective. Quantitative analysis allows us to track and measure various aspects, such as the frequency of data modifications. For instance, a pie chart can illustrate the distribution of students across three courses (BSCS, BSIT, BSIS), while a graph can depict yearly enrollment trends, helping to make data-driven decisions.
 
 ### 4.1.1 Quantitative Research
 
@@ -120,17 +120,15 @@ Requirements analysis is a crucial phase in system development, involving the id
 
 ### 4.2.1 Requirements Documentation
 
-### Functional Requirements
-
-### Admin Controls
+#### Admin Controls
 
 The system must provide administrators with the capability to modify student data and register new students, plates, and accounts.
 
-### Login
+#### Login
 
 Users must be able to log in securely with appropriate authentication mechanisms.
 
-### Dashboard
+#### Dashboard
 
 The system shall display the following information on the dashboard:
 
@@ -146,7 +144,7 @@ Displaying a graph showcasing the number of students enrolled per year, along wi
 
 Visualizing enrollment data per semester, categorized by course and year.
 
-### Predict
+#### Predict
 
 The system should have the ability to generate predictions, including:
 
@@ -158,42 +156,58 @@ Predict the number of students expected for a specified date.
 
 Determine the most in-demand course among BSCS, BSIT, and BSIS.
 
-### Dataset
+#### Dataset
 
 The system should include a data management module where data can be modified and stored securely.
 
 ## Non-Functional Requirements
 
-### Performance
+#### Performance
 
 The system must be responsive and capable of handling concurrent users without significant performance degradation.
 
-### Security
+#### Security
 
 Data should be stored securely with encryption and access restricted to authorized users.
 
-### User Interface Design
+#### User Interface Design
 
 The user interface should be intuitive and user-friendly for administrators.
 
 ## User Requirements
 
-### Administrator Interface
+#### Administrator Interface
 
 Administrators should have access to a simple and user-friendly interface for data modification and prediction generation.
 
-### Prediction Accuracy
+#### Prediction Accuracy
 
 Users expect accurate and reliable predictions.
 
-### Secure Access
+#### Secure Access
 
 Users should access the system securely using login credentials.
 
 
 ## 4.3 Technical Background
 
-The Technical Background section provides essential technical context for the project.
+- Programming Language: The system will be developed using a suitable programming language for web applications, such as Python, JavaScript, or a combination of both.
+
+- Web Framework: A web framework like Django or Flask (for Python) or Express.js (for JavaScript) will be employed to build the web application.
+
+- Database: Data will be stored in a relational database management system (RDBMS) like MySQL or PostgreSQL to ensure data integrity and security.
+
+- Frontend Technologies: HTML, CSS, and JavaScript will be used for creating the user interface.
+
+- Data Visualization: Libraries like D3.js or Chart.js will be utilized to create graphical representations of data.
+
+- Security Measures: Security protocols, including encryption for sensitive data and role-based access control, will be implemented to ensure data security.
+
+- Scalability: The system architecture will be designed to accommodate future growth in terms of data and users.
+
+- Testing and Quality Assurance: Comprehensive testing, encompassing unit testing, integration testing, and user acceptance testing, will be conducted to ensure the system's reliability and accuracy.
+
+Deployment: The system will be deployed on a suitable web hosting platform or cloud infrastructure to ensure accessibility and scalability.
 
 ## 4.4 Design of Software System/Process
 
