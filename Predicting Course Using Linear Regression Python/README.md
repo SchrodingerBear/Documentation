@@ -120,13 +120,76 @@ Requirements analysis is a crucial phase in system development, involving the id
 
 ### 4.2.1 Requirements Documentation
 
-Requirements documentation includes:
+### Functional Requirements
 
-- **Functional Requirements:** Describing the system's functionalities, such as user authentication, prediction generation, and database management.
+### Admin Controls
 
-- **Non-Functional Requirements:** Specifying system characteristics like performance, security, and user interface design.
+The system must provide administrators with the capability to modify student data and register new students, plates, and accounts.
 
-- **User Requirements:** Outlining user expectations gathered through surveys and interviews.
+### Login
+
+Users must be able to log in securely with appropriate authentication mechanisms.
+
+### Dashboard
+
+The system shall display the following information on the dashboard:
+
+#### Total Students
+
+Presenting a pie chart representing the distribution of students across three courses (BSCS, BSIT, BSIS).
+
+#### Yearly Enrollees
+
+Displaying a graph showcasing the number of students enrolled per year, along with an average enrollment figure.
+
+#### Semestral Data
+
+Visualizing enrollment data per semester, categorized by course and year.
+
+### Predict
+
+The system should have the ability to generate predictions, including:
+
+#### Expected Students for a Specified Date
+
+Predict the number of students expected for a specified date.
+
+#### The Most In-Demand Course
+
+Determine the most in-demand course among BSCS, BSIT, and BSIS.
+
+### Dataset
+
+The system should include a data management module where data can be modified and stored securely.
+
+## Non-Functional Requirements
+
+### Performance
+
+The system must be responsive and capable of handling concurrent users without significant performance degradation.
+
+### Security
+
+Data should be stored securely with encryption and access restricted to authorized users.
+
+### User Interface Design
+
+The user interface should be intuitive and user-friendly for administrators.
+
+## User Requirements
+
+### Administrator Interface
+
+Administrators should have access to a simple and user-friendly interface for data modification and prediction generation.
+
+### Prediction Accuracy
+
+Users expect accurate and reliable predictions.
+
+### Secure Access
+
+Users should access the system securely using login credentials.
+
 
 ## 4.3 Technical Background
 
