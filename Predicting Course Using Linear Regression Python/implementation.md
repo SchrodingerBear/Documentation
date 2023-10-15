@@ -1,4 +1,4 @@
-# Course Demand Prediction System
+# Course Demand Prediction System Implementation Plan
 
 ## Introduction
 
