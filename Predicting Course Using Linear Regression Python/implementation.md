@@ -1,4 +1,4 @@
-# Educational Course Demand Prediction System
+# Course Demand Prediction System
 
 ## Introduction
 
